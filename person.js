@@ -1,7 +1,7 @@
 class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+  constructor(options) {
+    this.name = options.name;
+    this.age = options.age;
   }
 
   sayHi() {
